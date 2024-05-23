@@ -1,0 +1,118 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffffff;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #007bff;
+}
+
+.section {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.section h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.voiture-details {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.voiture-details h3 {
+    margin-top: 0;
+    color: #ff6f61;
+}
+
+.voiture-details p {
+    margin: 5px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="date"],
+form input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+form input[type="text"]:focus,
+form input[type="date"]:focus,
+form input[type="number"]:focus {
+    border-color: #ff6f61;
+}
+
+form button {
+    padding: 15px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #e55a50;
+}
+
+
